@@ -42,7 +42,7 @@ Aqua.addCommand({ pattern: 'findapk ?(.*)', fromMe: wk, desc:SDESC, deleteComman
    ini_txt += `🔗 Link : ${x.link}\n`
 	ini_txt += `─────────────────\n\n`
         }
-        await message.client.sendMessage(message.jid, '╔═══════════════╗\n║ *🤹‍♂️AQUA PlayStore Search🤹‍♀️*║\n╚═══════════════╝\n\n' + ' *─────────────────* \n\n' + ini_txt  ,MessageType.text, {quoted: message.data});
+        await message.client.sendMessage(message.jid, '╔═══════════════╗\n║ *🤹‍♂️MZN PlayStore Search🤹‍♀️*║\n╚═══════════════╝\n\n' + ' *─────────────────* \n\n' + ini_txt  ,MessageType.text, {quoted: message.data});
  return await message.client.deleteMessage(message.jid, {id: load.key.id, remoteJid: message.jid, fromMe: true})
 
 })
@@ -67,7 +67,7 @@ Aqua.addCommand({ pattern: 'findapk ?(.*)', fromMe: wk, desc:SDESC, deleteComman
   const icon = try1.icon
   const rating = try1.rating
   const developer = try1.additional_info.developer
-  const msg ='┌───[🐋𝙰𝚀𝚄𝙰𝙱𝙾𝚃🐋]\n\n  *APK DOWNLOADER*\n\n│🎁ɴᴀᴍᴇ :' + name + '\n\n│🕹️ᴠᴇʀsɪᴏɴ : ' + version + '\n\n│👨‍💻ᴅᴇᴠᴇʟᴏᴘᴇʀ : ' + developer + '\n\n│✨ʀᴀᴛɪɴɢ : ' + rating + '\n\n└───────────◉'
+  const msg ='┌───[😈𝙼𝚉𝙽𝙱𝙾𝚃😈]\n\n  *APK DOWNLOADER*\n\n│🎁ɴᴀᴍᴇ :' + name + '\n\n│🕹️ᴠᴇʀsɪᴏɴ : ' + version + '\n\n│👨‍💻ᴅᴇᴠᴇʟᴏᴘᴇʀ : ' + developer + '\n\n│✨ʀᴀᴛɪɴɢ : ' + rating + '\n\n└───────────◉'
   const res =   await webp2img(icon)
    const res2 = await axios.get( res, { responseType: 'arraybuffer'})
   var up = await message.client.sendMessage(message.jid,UP,MessageType.text, {quoted: message.data});
@@ -108,7 +108,7 @@ Aqua.addCommand({ pattern: 'findapk ?(.*)', fromMe: wk, desc:SDESC, deleteComman
   const icon = try1.icon
   const rating = try1.rating
   const developer = try1.additional_info.developer
-  const msg ='┌───[🐋𝙰𝚀𝚄𝙰𝙱𝙾𝚃🐋]\n\n  *APK DOWNLOADER*\n\n│🎁ɴᴀᴍᴇ :' + name + '\n\n│🕹️ᴠᴇʀsɪᴏɴ : ' + version + '\n\n│👨‍💻ᴅᴇᴠᴇʟᴏᴘᴇʀ : ' + developer + '\n\n│✨ʀᴀᴛɪɴɢ : ' + rating + '\n\n└───────────◉'
+  const msg ='┌───[😈𝙼𝚉𝙽𝙱𝙾𝚃😈]\n\n  *APK DOWNLOADER*\n\n│🎁ɴᴀᴍᴇ :' + name + '\n\n│🕹️ᴠᴇʀsɪᴏɴ : ' + version + '\n\n│👨‍💻ᴅᴇᴠᴇʟᴏᴘᴇʀ : ' + developer + '\n\n│✨ʀᴀᴛɪɴɢ : ' + rating + '\n\n└───────────◉'
   const res =   await webp2img(icon)
    const res2 = await axios.get( res, { responseType: 'arraybuffer'})
   var up = await message.client.sendMessage(message.jid,UP,MessageType.text, {quoted: message.data});
