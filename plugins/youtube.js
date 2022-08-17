@@ -32,7 +32,7 @@ let wk = config.WORKTYPE == 'public' ? false : true
       
           
         
-         const msg = '┌───[🐋𝙰𝚀𝚄𝙰𝙱𝙾𝚃🐋]\n\n  *📥SONG DOWNLODER*\n\n│🎧sᴏɴɢ: ' + title2 + '\n\n│ 👀ᴠɪᴇᴡs: ' + views + '\n\n│ 📹 ᴄʜᴀɴɴᴇʟ: ' + author + '\n\n│🖇️ᴜʀʟ: ' + url + '\n\n└───────────◉'
+         const msg = '┌───[😈𝙼𝚉𝙽𝙱𝙾𝚃😈]\n\n  *📥SONG DOWNLODER*\n\n│🎧sᴏɴɢ: ' + title2 + '\n\n│ 👀ᴠɪᴇᴡs: ' + views + '\n\n│ 📹 ᴄʜᴀɴɴᴇʟ: ' + author + '\n\n│🖇️ᴜʀʟ: ' + url + '\n\n└───────────◉'
          var logo = await axios.get(thumbnail ,{responseType: 'arraybuffer'});
  
     var PIC = Buffer.from(logo.data)
@@ -103,7 +103,7 @@ Aqua.addCommand({pattern: 'asong ?(.*)', fromMe: wk, dontAddCommandList: true, d
     let views = s3vid.videos[0].views;
     let author = s3vid.videos[0].author.name;
     let url = s3vid.videos[0].url;
-    let msg = '┌───[🐋𝙰𝚀𝚄𝙰𝙱𝙾𝚃🐋]\n\n  *📥VIDEO DOWNLODER*\n\n│📽️ᴠɪᴅᴇᴏ: ' + title + '\n\n│ 👀ᴠɪᴇᴡs: ' + views + '\n\n│ 📹 ᴄʜᴀɴɴᴇʟ: ' + author + '\n\n│🖇️ᴜʀʟ: ' + url + '\n\n└───────────◉'
+    let msg = '┌───[😈𝙼𝚉𝙽𝙱𝙾𝚃😈]\n\n  *📥VIDEO DOWNLODER*\n\n│📽️ᴠɪᴅᴇᴏ: ' + title + '\n\n│ 👀ᴠɪᴇᴡs: ' + views + '\n\n│ 📹 ᴄʜᴀɴɴᴇʟ: ' + author + '\n\n│🖇️ᴜʀʟ: ' + url + '\n\n└───────────◉'
     var logo = await axios.get(thumbnail ,{responseType: 'arraybuffer'});
  
     var PIC = Buffer.from(logo.data)
